@@ -21,7 +21,7 @@ if __name__ == '__main__':
 
     # Check saved model with 32 bits exists, otherwise train it
     if not os.path.isfile("models/model_32.pth"):
-        losses = utils.train(model_fp32, train_loader, num_epochs=10)
+        utils.train(model_fp32, train_loader, num_epochs=10)
         # Save weights
         torch.save(model_fp32.state_dict(), "models/model_32.pth")
     else:
