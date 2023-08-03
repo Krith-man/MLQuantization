@@ -1,6 +1,6 @@
 ## Technical Coding Challenge - Quantization
 
-Minimize the size footprint of a machine learning model with quantization methods in Pytorch framework. We investigate 3 different quantization techniques: `Dynamic Quantitation`,`Post-Training Static Quantization`,`Quantization-aware training (QAT)` on top of a computer vision ML model, trained with MNIST dataset over an Lenet5 architecture model, and the results depict that even though the accuracy levels remain almost constant, the quantization model sizes are dropped close to 3.3 times for all 3 approaches. 
+Minimize the size footprint of a machine learning model with quantization methods in Pytorch framework. We investigate 3 different quantization techniques: `Dynamic Quantitation`,`Post-Training Static Quantization`,`Quantization-aware training (QAT)` on top of a computer vision ML model, trained with MNIST dataset over an Lenet5 architecture model, and the results depict that even though the accuracy levels remain almost constant, the quantization model sizes drop close to 3.3 times for all 3 approaches. 
 
 ### Instructions
 
